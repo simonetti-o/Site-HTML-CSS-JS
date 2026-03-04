@@ -1,13 +1,20 @@
+@font-face {
+    font-family: Product Sans;
+    src: url(fonts/Product\ Sans\ Bold.ttf);
+}
+
+/* O * pega o projeto inteiro */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Product Sans;
 }
 
 html,body{
     height: 100%;
     width: 100%;
-    overflow-x: none;
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar{
