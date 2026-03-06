@@ -140,6 +140,7 @@ body::-webkit-scrollbar{
 .left-side svg{
     margin-top: 50vh;
     width: 50%;
+    margin-left: 20%;
     transform: rotateX(50deg);
 }
 
